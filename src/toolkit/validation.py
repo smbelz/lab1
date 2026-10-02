@@ -18,7 +18,7 @@ def validate(tokens: list[list[str]]) -> None:
     Принимает список токенов [тип, значение].
     :return: Данная фанкция ничего не возвращает.
     Если список токенов пуст, бросает EmptyExpression.
-    Если пропущен оператор, бросает MissingOperandError.
+    Если пропущен операнд, бросает MissingOperandError.
     """
     if not tokens:
         raise EmptyExpression()
