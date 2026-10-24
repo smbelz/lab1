@@ -27,11 +27,11 @@ lab1/
 │   ├── __init__.py
 │   ├── test_calculator.py       # тесты калькулятора
 │   └── test_converter.py        # тесты конвертера
-├── pyproject.toml               # описание пакета и настройки инструментов
-├── requirements.txt             # зависимости проекта
-├── .gitignore                   # git ignore файл
-├── .pre-commit-config.yaml      # cредства автоматизации проверки кодстайла
-└── README.md                    # описание проекта
+├── .gitignore                 # git ignore файл
+├── .pre-commit-config.yaml    # средства автоматизации проверки кодстайла
+├── pyproject.toml             # зависимости проекта
+├── requirements.txt           # требования             
+└── README.md                  # описание проекта
 ```
 
 
